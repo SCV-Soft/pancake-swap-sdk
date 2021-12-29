@@ -89,5 +89,13 @@ export const WETH = {
     'WETH',
     'Wrapped ETH',
     'https://ethereum.org'
-  )
+  ),
+  [ChainId.HOMESTEAD]: new Token(
+    ChainId.HOMESTEAD,
+    '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    18,
+    'WETH',
+    'Wrapped ETH',
+    'https://ethereum.org'
+  ),
 }
