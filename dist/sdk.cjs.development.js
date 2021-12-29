@@ -416,8 +416,8 @@ var Token = /*#__PURE__*/function (_Currency) {
   ;
 
   _proto.sortsBefore = function sortsBefore(other) {
-    !(this.chainId === other.chainId) ?  invariant(false, 'CHAIN_IDS')  : void 0;
-    !(this.address !== other.address) ?  invariant(false, 'ADDRESSES')  : void 0;
+    // invariant(this.chainId === other.chainId, 'CHAIN_IDS')
+    // invariant(this.address !== other.address, 'ADDRESSES')
     return this.address.toLowerCase() < other.address.toLowerCase();
   };
 
