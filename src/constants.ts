@@ -7,6 +7,7 @@ export enum ChainId {
   MAINNET = 56,
   TESTNET = 97,
   RINKEBY = 4,
+  HOMESTEAD = 1,
 }
 
 export enum TradeType {
